@@ -1,0 +1,27 @@
+{
+  "name": "lawand",
+  "version": "1.0.0",
+  "description": "Lawand's personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve public",
+    "dev": "live-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedsm/lawand.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedsm/lawand/issues"
+  },
+  "homepage": "https://github.com/pedsm/lawand#readme",
+  "dependencies": {
+    "serve": "^11.0.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
