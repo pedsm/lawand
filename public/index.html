@@ -21,13 +21,30 @@
     }
 
     div {
-        margin: calc(50vh - 3em) auto;
+        margin: calc(50vh - 3em - 250px) auto;
         width: fit-content;
+    }
+
+    img {
+        border-radius: 100%;
+        height: 250px;
+    }
+
+    .floater{ 
+        margin: 0;
+        top: 10px;
+        left: 10px;
+        position: absolute;
+        border: 1px solid white;
+        width: calc(100vw - 20px);
+        height: calc(100vh - 20px);
     }
 </style>
 
 <body>
+    <div class="floater"></div>
     <div>
+        <img src="/imgs/square.png"/>
         <h1>Lawand Othman</h1>
     </div>
 </body>
