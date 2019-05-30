@@ -6,7 +6,8 @@
 body {
     margin: 0;
     background: url('/imgs/rsz_background.jpg');
-    background-position-x: middle;
+    background-position: center;
+    background-size: cover;
     background-color: black;
 }
 
